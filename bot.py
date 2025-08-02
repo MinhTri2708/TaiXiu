@@ -9,7 +9,7 @@ import os
 
 # ==== Cấu hình ====
 import os
-TOKEN = os.getenv("TOKEN")"
+TOKEN = os.getenv("TOKEN")
 COIN_NAME = "VNĐ"                 # Tên tiền tệ
 DEFAULT_BALANCE = 1000            # Số tiền mặc định khi người chơi mới
 DATA_FILE = "players.json"        # File lưu dữ liệu
