@@ -6,7 +6,8 @@ import asyncio
 import os
 
 # ==== Cấu hình ====
-TOKEN = "MTQwMTEyNzA3OTgxMDE3NTA2OQ.GHMk_R.Vqmx5VLspDDE-F2aDJh54gUm7C_AYyI_AMlZL4"  # Thay bằng token bot của bạn
+import os
+TOKEN = os.getenv("TOKEN")"
 COIN_NAME = "VNĐ"                 # Tên tiền tệ
 DEFAULT_BALANCE = 1000            # Số tiền mặc định khi người chơi mới
 DATA_FILE = "players.json"        # File lưu dữ liệu
